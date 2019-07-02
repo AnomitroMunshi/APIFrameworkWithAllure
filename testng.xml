@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="10" preserve-order="true" name="C:/Users/user/IdeaProjects/ApiFramework">
+        <classes>
+            <class name="com.automatad.testcase.userTestpositive">
+                <methods>
+                    <include name="signUpTest"/>
+                    <include name="signInTest"/>
+                    <include name="getuserTest"/>
+                    <include name="ModifyNameTest"/>
+                    <include name="ChangePasswordTest"/>
+                    <include name="getUserAfterPasswordChangeTest"/>
+                    <include name="getUserAfterLogoutTest"/>
+                    <include name="signInwithNewpassTest"/>
+                    <include name="forgotPassTest"/>
+                </methods>
+            </class>
+             <class name="com.automatad.testcase.userTestnegative">
+                 <methods>
+                     <include name="signUpNegativeTest"/>
+                     <include name="signInNegativeTest"/>
+                     <include name="getuserNegativeTest"/>
+                     <include name="logoutNegativeTest"/>
+                     <include name="ResetPassNegativeTest"/>
+                     <include name="changepasswordNegativeTest"/>
+                 </methods>
+             </class>
+
+        </classes>
+    </test>
+</suite>

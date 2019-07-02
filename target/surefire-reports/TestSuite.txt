@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.684 s <<< FAILURE! - in TestSuite
+ResetPassNegativeTest(com.automatad.testcase.userTestnegative)  Time elapsed: 0.147 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <422> but was <400>.
+
+	at com.automatad.testcase.userTestnegative.ResetPassNegativeTest(userTestnegative.java:136)
+
